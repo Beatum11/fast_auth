@@ -5,7 +5,7 @@ This project is a clean and extensible authentication & authorization API built 
 
 ---
 
-## 🚀 Features
+## Features
 
 - ✅ User registration (`/signup`)
 - ✅ User login with JWT token generation (`/signin`)
