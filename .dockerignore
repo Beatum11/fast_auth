@@ -1,0 +1,34 @@
+# Bytecode / caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Git / VCS
+.git
+.gitignore
+
+# Local envs & secrets
+.env
+.env.*
+*.db
+*.sqlite3
+
+# IDEs & editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tests & build artifacts
+tests/
+*.log
+.coverage
+.pytest_cache/
+htmlcov/
+dist/
+build/
+*.egg-info/

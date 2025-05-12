@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "courses-fast"
+version = "0.1.0"
+description = ""
+authors = ["Viacheslav Beatum <podarkiprod@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["all"], version = "^0.115.12"}
+dotenv = "^0.9.9"
+sqlmodel = "^0.0.24"
+aiosqlite = "^0.21.0"
+loguru = "^0.7.3"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+pyjwt = "^2.10.1"
+redis = "^6.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+pytest-asyncio = "^0.26.0"
+httpx = "^0.28.1"
+fakeredis = {extras = ["lua"], version = "^2.29.0"}
+asgi-lifespan = "^2.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

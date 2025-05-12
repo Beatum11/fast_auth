@@ -1,0 +1,47 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# VS Code / IDE
+.vscode/
+.idea/
+*.swp
+
+# Bytecode / logs / tests
+*.log
+*.sqlite3
+*.db
+*.coverage
+htmlcov/
+.coverage.*
+.cache/
+pytest_cache/
+
+# Environment
+.env
+.env.*
+
+# Poetry
+poetry.lock
+*.egg-info/
+dist/
+build/
+
+# Docker
+*.tar
+*.img
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test artifacts
+.coverage
+.tox/
+.mypy_cache/
+.pytest_cache/
